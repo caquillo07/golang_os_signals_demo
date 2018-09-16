@@ -15,7 +15,7 @@ func main() {
 	go func() {
 		<-c
 		fmt.Println("\nGood bye!")
-		// dont forget to exit
+		// dont forget to exit, very important!
 		os.Exit(0)
 	}()
 
